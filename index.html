@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Dart - service manager</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/	css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="navigation d-flex">
+				<div class="logo d-flex">
+					<img src="img/logo.png" alt="лого">
+					<p class="logo__text">
+						Dart<br><span>Service manager</span>
+					</p>
+				</div>
+				<nav class="nav">
+					<ul class="nav__list d-flex">
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								Home
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								Service
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								Extension
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								Pricing
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								Help
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<button data-modal class="nav__btn">sign up</button>
+			</div>
+			<div class="home d-flex">
+				<div class="home__content">
+					<h1 class="home__title">
+						Lorem ipsum dolor sit amet
+					</h1>
+					<p class="home__text">
+						Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamico
+					</p>
+					<div class="home__btns d-flex">
+						<button data-modal class="btn btn-buy">Buy now</button>
+						<button data-modal class="btn btn-try">Try for free</button>
+					</div>
+				</div>
+				<div class="home__video">
+					<div class="home__pic">
+						<img src="img/video-pic.png" alt="Video">
+						<div class="home__wrapper">
+							<div class="home__play"><i class="fas fa-play"></i></div>
+							<p class="home__play-text">
+								Watch the video
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<section id="section-about" class="section-about">
+		<div class="container">
+			<h2 class="section__title">
+				Easy & Useful
+			</h2>
+			<h3 class="about__title">
+				Project Management Tool
+			</h3>
+			<p class="section__text">
+				Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis<br>nostrud
+			</p>
+			<div class="tools d-flex">
+				<div class="tools__item">
+					<img src="img/icon1.png" alt="icon">
+					<h4 class="tools__title">
+						Title Goes Here
+					</h4>
+					<p class="tools__text">
+						Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua
+					</p>
+				</div>
+				<div class="tools__item">
+					<img src="img/icon2.png" alt="icon">
+					<h4 class="tools__title">
+						Title Goes Here
+					</h4>
+					<p class="tools__text">
+						Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua
+					</p>
+				</div>
+				<div class="tools__item">
+					<img src="img/icon3.png" alt="icon">
+					<h4 class="tools__title">
+						Title Goes Here
+					</h4>
+					<p class="tools__text">
+						Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua
+					</p>
+				</div>
+			</div>
+			<div class="btn-wrapper">
+				<button class="btn btn-started">Get started</button>
+			</div>
+		</div>
+	</section>
+	<section id="section-progress" class="section-progress">
+		<div class="progress d-flex">
+			<div class="progress__item d-flex">
+				<i class="fa fa-building"></i>
+				<p class="progress__text">
+					12000+<br>Business
+				</p>
+			</div>
+			<div class="progress__item d-flex">
+				<i class="fa fa-download"></i>
+				<p class="progress__text">
+					60000+<br>Downloads
+				</p>
+			</div>
+			<div class="progress__item d-flex">
+				<i class="fa fa-save"></i>
+				<p class="progress__text">
+					30000+<br>Free Installs
+				</p>
+			</div>
+			<div class="progress__item d-flex">
+				<i class="fa fa-user"></i>
+				<p class="progress__text">
+					40000+<br>Pro Users
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="section-serevices" class="section-services">
+		<div class="container">
+			<h2 class="section__title">
+				Services
+			</h2>
+			<p class="section__text section__text-services">
+				Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna
+			</p>
+			<div class="services__accordion">
+				<div class="accordion__item active">
+					<div class="accordion__item-title d-flex">
+						<h5>
+							<i class="fa fa-chart-line"></i>Statistics
+						</h5>
+						<i class="accordion__arrow fa fa-sort-down"></i>
+					</div>
+					<div class="accordion__item-content d-flex">
+						<img src="img/pic2.jpg" alt="pic">
+						<div class="accordion__item-wrapper">
+							<p class="accordion__item-text">
+								Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam
+							</p>
+							<p class="accordion__item-text">
+								quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion__item">
+					<div class="accordion__item-title d-flex">
+						<h5>
+							<i class="fa fa-envelope"></i>Inbox
+						</h5>
+						<i class="accordion__arrow fa fa-sort-down"></i>
+					</div>
+					<div class="accordion__item-content d-flex">
+						<img src="img/pic3.jpg" alt="pic">
+						<div class="accordion__item-wrapper">
+							<p class="accordion__item-text">
+								Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam
+							</p>
+							<p class="accordion__item-text">
+								quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion__item">
+					<div class="accordion__item-title d-flex">
+						<h5>
+							<i class="fa fa-users"></i>Team
+						</h5>
+						<i class="accordion__arrow fa fa-sort-down"></i>
+					</div>
+					<div class="accordion__item-content d-flex">
+						<img src="img/pic4.jpg" alt="pic">
+						<div class="accordion__item-wrapper">
+							<p class="accordion__item-text">
+								Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam
+							</p>
+							<p class="accordion__item-text">
+								quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion__item">
+					<div class="accordion__item-title d-flex">
+						<h5>
+							<i class="fa fa-cog"></i>Settings
+						</h5>
+						<i class="accordion__arrow fa fa-sort-down"></i>
+					</div>
+					<div class="accordion__item-content d-flex">
+						<img src="img/pic5.jpg" alt="pic">
+						<div class="accordion__item-wrapper">
+							<p class="accordion__item-text">
+								Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam
+							</p>
+							<p class="accordion__item-text">
+								quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion__item">
+					<div class="accordion__item-title d-flex">
+						<h5>
+							<i class="fa fa-rss"></i>Feed
+						</h5>
+						<i class="accordion__arrow fa fa-sort-down"></i>
+					</div>
+					<div class="accordion__item-content d-flex">
+						<img src="img/pic6.jpg" alt="pic">
+						<div class="accordion__item-wrapper">
+							<p class="accordion__item-text">
+								Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam
+							</p>
+							<p class="accordion__item-text">
+								quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section-reviews" class="section-reviews">
+		<div class="container">
+			<div class="reviews__content d-flex">
+				<div class="reviews__wrapper">
+					<h2 class="reviews__title">
+						What our customers have to say about us
+					</h2>
+					<p class="reviews__text">
+						Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna
+					</p>
+					<button class="btn btn-buy">Get started</button>
+				</div>
+
+				<div class="reviews__carousel">
+					<div class="carousel__control">
+						<button class="carousel__arrow arrow__next">
+							<i class="fa fa-chevron-up"></i> 
+						</button>
+						<button class="carousel__arrow arrow__prev">
+							<i class="fa fa-chevron-down"></i>
+						</button>
+					</div>
+					<div class="carousel__wrapper">
+						<div class="carousel__item">
+							<img class="carousel__img" src="img/face1.png" alt="face">
+							<div class="carousel__item-wrapper">
+								<h4 class="carousel__title">
+									John Doe
+								</h4>
+								<p class="carousel__text">
+									Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea
+								</p>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<img class="carousel__img" src="img/face5.png" alt="face">
+							<div class="carousel__item-wrapper">
+								<h4 class="carousel__title">
+									Khalessi
+								</h4>
+								<p class="carousel__text">
+									Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea
+								</p>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<img class="carousel__img" src="img/face6.png" alt="face">
+							<div class="carousel__item-wrapper">
+								<h4 class="carousel__title">
+									Joseph
+								</h4>
+								<p class="carousel__text">
+									Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea
+								</p>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<img class="carousel__img" src="img/face7.png" alt="face">
+							<div class="carousel__item-wrapper">
+								<h4 class="carousel__title">
+									Nojan
+								</h4>
+								<p class="carousel__text">
+									Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea
+								</p>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<img class="carousel__img" src="img/face8.png" alt="face">
+							<div class="carousel__item-wrapper">
+								<h4 class="carousel__title">
+									Erik
+								</h4>
+								<p class="carousel__text">
+									Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea
+								</p>
+							</div>
+						</div>
+						<div class="carousel__item">
+							<img class="carousel__img" src="img/face9.png" alt="face">
+							<div class="carousel__item-wrapper">
+								<h4 class="carousel__title">
+									Hassan
+								</h4>
+								<p class="carousel__text">
+									Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamico laboris nisi ut aliquip ex ea
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="section-team" class="section-team">
+		<div class="container">
+			<h2 class="section__title">
+				Our Team
+			</h2>
+			<p class="section__text section__text-team">
+				Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna
+			</p>		
+			<div class="slider__list">
+				<img class="slider__item hide" src="img/face2.png" alt="team">
+				<img class="slider__item prev" src="img/face3.png" alt="team">
+				<img class="slider__item act" src="img/face4.png" alt="team">
+				<img class="slider__item next" src="img/face10.png" alt="team">
+				<img class="slider__item next new-next" src="img/face11.png" alt="team">
+			</div>
+			<div class="content__slider">
+				<div class="content__item">
+					<h4 class="content__title">
+						Sophie Turner
+					</h4>
+					<p class="content__text">
+						Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna aliqua. Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+					</p>
+					<ul class="content__social d-flex">
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-dribbble"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-behance"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="content__item">
+					<h4 class="content__title">
+						Erik Lucatero
+					</h4>
+					<p class="content__text">
+						But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great
+					</p>
+					<ul class="content__social d-flex">
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-dribbble"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-behance"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="content__item">
+					<h4 class="content__title">
+						Ludvig Viesa
+					</h4>
+					<p class="content__text">
+						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
+					</p>
+					<ul class="content__social d-flex">
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-dribbble"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-behance"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="content__item">
+					<h4 class="content__title">
+						Raj Rana
+					</h4>
+					<p class="content__text">
+						Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur
+					</p>
+					<ul class="content__social d-flex">
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-dribbble"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-behance"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="content__item">
+					<h4 class="content__title">
+						Joel Mott
+					</h4>
+					<p class="content__text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+					</p>
+					<ul class="content__social d-flex">
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-dribbble"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link">
+								<i class="fab fa-behance"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+
+
+
+
+
+
+
+			<div class="team__description">
+				<div class="team__description-item">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="section-contacts" class="section-contacts">
+		<div class="container">
+			<h2 class="section__title">
+				Contact Us
+			</h2>
+			<p class="section__text section__text-contact">
+				Lorem ipsum dolor sit omet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore magna
+			</p>
+			<form action="#">
+				<div class="form__wrapper d-flex">
+					<input class="form__item" name="name" type="text" placeholder="First Name">
+					<input class="form__item" name="lastName" type="text" placeholder="Last Name">
+				</div>
+				<div class="form__wrapper d-flex">
+					<input class="form__item" name="email" type="text" placeholder="Email">
+					<input class="form__item" name="phone" type="text" placeholder="Phone">
+				</div>
+				<textarea name="comment" id="textarea" placeholder="Massage"></textarea>
+				<div class="form__wrapper form__wrapper-button d-flex">
+					<div class="form__check">	
+						<input class="checkbox" id="checkbox" type="checkbox">
+						<label for="checkbox">subscribe to the newsletter</label>
+					</div>
+					<button class="btn btn-started">Send</button>
+				</div>
+
+			</form>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="navigation d-flex">
+				<div class="logo d-flex">
+					<img src="img/logo.png" alt="лого">
+					<p class="logo__text">
+						Dart<br><span>Service manager</span>
+					</p>
+				</div>
+				<nav class="nav">
+					<ul class="nav__list d-flex">
+						<li class="nav__item">
+							<a href="#" class="nav__link footer__link">
+								Home
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link footer__link">
+								Service
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link footer__link">
+								Extension
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link footer__link">
+								Pricing
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link footer__link">
+								Help
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__wrapper d-flex">
+				<ul class="footer__menu d-flex">
+					<li class="footer__item">
+						<a href="#" class="footer__item-link">
+							Privecy Policy
+						</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__item-link">
+							About Us
+						</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__item-link">
+							Our Team
+						</a>
+					</li>
+				</ul>
+				<ul class="footer__social d-flex">
+					<li class="social__item">
+						<a href="#" class="footer__item-link">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="footer__item-link">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="footer__item-link">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="footer__item-link">
+							<i class="fab fa-dribbble"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="footer__item-link">
+							<i class="fab fa-behance"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
